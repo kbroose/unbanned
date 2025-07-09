@@ -1,10 +1,10 @@
 # 🕶️ Unbanned
 
-A simple Electron app to remove Ray-Ban Meta identifiers from your photos and videos before sharing them online.
+A simple Electron app to remove Meta Ray-Ban identifiers from your photos and videos before sharing them online.
 
 ## What it does
 
-Unbanned helps you maintain privacy by stripping metadata that could identify your Ray-Ban Meta smart glasses from your media files. It removes:
+Unbanned helps you maintain privacy by stripping metadata that could identify your Meta Ray-Ban smart glasses from your media files. It removes:
 
 - Camera make/model information
 - Device-specific comments
