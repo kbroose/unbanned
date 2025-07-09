@@ -36,7 +36,7 @@ Unbanned helps you maintain privacy by stripping metadata that could identify yo
 
 1. **Clone or download** this repository
    ```bash
-   git clone https://github.com/yourusername/unbanned.git
+   git clone https://github.com/kbroose/unbanned.git
    cd unbanned
    ```
 
@@ -114,4 +114,4 @@ If you encounter any issues:
 
 ---
 
-Made with ❤️ for privacy-conscious content creators 
+Made with ❤️ for people who don't want to give Meta free advertising
