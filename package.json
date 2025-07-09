@@ -4,11 +4,11 @@
   "productName": "Unbanned",
   "description": "Strip Ray‑Ban Meta tags from photos & videos",
   "main": "main.js",
-  "author": "Your Name",
+  "author": "Kevin Roose",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/unbanned.git"
+    "url": "https://github.com/kbroose/unbanned.git"
   },
   "keywords": [
     "electron",
