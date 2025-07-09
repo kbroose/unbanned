@@ -1,0 +1,61 @@
+{
+  "name": "unbanned",
+  "version": "1.0.0",
+  "productName": "Unbanned",
+  "description": "Strip Ray‑Ban Meta tags from photos & videos",
+  "main": "main.js",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/unbanned.git"
+  },
+  "keywords": [
+    "electron",
+    "privacy",
+    "metadata",
+    "exif",
+    "ray-ban",
+    "meta",
+    "photos",
+    "videos"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:mac": "electron-builder --mac",
+    "build:win": "electron-builder --win",
+    "build:linux": "electron-builder --linux",
+    "pack": "electron-builder --mac --x64"
+  },
+  "build": {
+    "appId": "com.yourname.unbanned",
+    "productName": "Unbanned",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/**/*",
+      "!dist/**/*",
+      "!.git/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "build/icon.icns"
+    },
+    "win": {
+      "icon": "build/icon.ico"
+    },
+    "linux": {
+      "icon": "build/icon.png"
+    }
+  },
+  "dependencies": {
+    "exiftool-vendored": "^24.0.0"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.17.0"
+  }
+}
